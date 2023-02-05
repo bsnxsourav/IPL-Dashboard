@@ -1,0 +1,35 @@
+.team-page {
+    max-width: 60%;
+    margin: auto;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    h1 {
+        grid-column: 1/4;
+        margin: auto;
+    }
+
+    .win-loss-chart {
+        margin: auto;
+    }
+
+    .match-detail-card {
+        grid-column: 1/5;
+        margin: 10px 30px;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .match-card-small {
+        margin-left: 30px;
+    }
+
+    .more-link {
+        margin: auto;
+    }
+
+}
